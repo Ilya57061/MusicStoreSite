@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || "http://musicstore.somee.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://musicstore.somee.com";
 
 export function buildQuery(params) {
   const usp = new URLSearchParams();
